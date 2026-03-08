@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDG on Campus NTPU Member Wall</title>
+    <meta name="description" content="A collaborative Member Wall for GDG on Campus NTPU Workshop. Meet our amazing community members!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Dynamic Background Elements -->
+    <div class="background-effects">
+        <div class="glow blob-1"></div>
+        <div class="glow blob-2"></div>
+        <div class="glow blob-3"></div>
+    </div>
+
+    <div class="container">
+        <header class="hero">
+            <div class="badge">GitHub Workshop</div>
+            <h1>GDG on Campus NTPU<br><span>Member Wall</span></h1>
+            <p>Welcome to our collaboration workspace! Check out our wonderful members below.</p>
+        </header>
+
+        <main>
+            <div id="loader" class="loader">
+                <div class="spinner"></div>
+                <p>Loading members...</p>
+            </div>
+            
+            <div id="member-grid" class="member-grid">
+                <!-- Member cards will be dynamically injected here -->
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ by GDG on Campus NTPU</p>
+        </footer>
+    </div>
+
+    <!-- Application Logic -->
+    <script src="assets/app.js"></script>
+</body>
+</html>
